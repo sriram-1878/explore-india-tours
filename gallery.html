@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Travel Gallery | Explore India Tours</title>
+
+  <meta name="description"
+        content="Browse beautiful travel photographs from Goa, Kerala, Jaipur, and Shimla with Explore India Tours.">
+
+  <meta name="keywords"
+        content="travel gallery, India tourism, Goa beach, Kerala backwaters, Jaipur forts, Shimla hills">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a class="logo" href="index.html">Explore India Tours</a>
+
+    <button class="menu-btn"
+            id="menuBtn"
+            aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="packages.html">Packages</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+
+  <!-- Banner -->
+  <section class="page-banner">
+    <div class="container">
+
+      <h1>Travel Gallery</h1>
+
+      <p>
+        Explore the beauty of India's most loved destinations.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="container section">
+
+    <h2>Memorable Travel Experiences</h2>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+
+      <button class="btn small"
+              onclick="filterGallery('all')">
+        All
+      </button>
+
+      <button class="btn small"
+              onclick="filterGallery('beach')">
+        Beaches
+      </button>
+
+      <button class="btn small"
+              onclick="filterGallery('heritage')">
+        Heritage
+      </button>
+
+      <button class="btn small"
+              onclick="filterGallery('nature')">
+        Nature
+      </button>
+
+    </div>
+
+    <!-- Images -->
+    <div class="gallery-grid">
+
+      <figure class="gallery-item beach">
+        <img src="images/goa.svg"
+             alt="Beautiful beaches and water sports in Goa">
+
+        <figcaption>Goa - Beaches and Coastal Adventures</figcaption>
+      </figure>
+
+      <figure class="gallery-item heritage">
+        <img src="images/jaipur.svg"
+             alt="Historic forts and royal palaces in Jaipur">
+
+        <figcaption>Jaipur - Royal Heritage City</figcaption>
+      </figure>
+
+      <figure class="gallery-item nature">
+        <img src="images/kerala.svg"
+             alt="Backwaters and greenery in Kerala">
+
+        <figcaption>Kerala - God's Own Country</figcaption>
+      </figure>
+
+      <figure class="gallery-item nature">
+        <img src="images/shimla.svg"
+             alt="Snowy mountains and pine forests in Shimla">
+
+        <figcaption>Shimla - Queen of the Hills</figcaption>
+      </figure>
+
+    </div>
+
+  </section>
+
+  <!-- Additional Section -->
+  <section class="container section highlight">
+
+    <h2>Create Your Own Travel Memories</h2>
+
+    <p>
+      Every destination tells a story. Join Explore India Tours
+      and discover the incredible beauty, culture, and adventure
+      waiting across India.
+    </p>
+
+    <a class="btn" href="booking.html">
+      Plan Your Trip
+    </a>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="container footer-grid">
+
+    <div>
+      <h3>Explore India Tours</h3>
+
+      <p>
+        Bringing unforgettable travel experiences
+        to explorers across India.
+      </p>
+    </div>
+
+    <div>
+      <h3>Quick Links</h3>
+
+      <p>
+        <a href="destinations.html">Destinations</a> |
+        <a href="packages.html">Packages</a> |
+        <a href="booking.html">Book Now</a>
+      </p>
+    </div>
+
+    <div>
+      <h3>Contact</h3>
+
+      <p>
+        Email: info@exploreindiatours.com<br>
+        Phone: +91 98765 43210
+      </p>
+    </div>
+
+  </div>
+
+  <p class="copyright">
+    © 2026 Explore India Tours. All Rights Reserved.
+  </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
